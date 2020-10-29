@@ -50,3 +50,9 @@
 .button-select button:last-child {
     border-radius: 0 2rem 2rem 0;
 }
+
+@media (max-width: 768px) {
+    .primary-button {
+        margin-top: 4.4rem;
+    }
+}

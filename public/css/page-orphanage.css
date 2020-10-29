@@ -123,3 +123,50 @@ main {
     border: 1px solid #FFBCD4;
     color: #FF669D;
 }
+
+@media (max-width: 768px) {
+    .orphanage-details {
+        width: 100vw;
+        margin: 6.4rem auto 0;
+        border-radius: 2rem 2rem 0 0;
+    }
+
+    .orphanage-details > img {
+        height: 20rem;
+    }
+
+    .images {
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 1rem;
+        row-gap: 1rem;
+        margin: 10px 10px 0;
+        padding-bottom: 2.4rem;
+        border-bottom: 1px solid #D3E2E5;
+    }
+
+    .orphanage-details-content {
+        padding: 1rem;   
+    }
+
+    .orphanage-details-content h1 {
+        font-size: 4.4rem;
+        margin-bottom: 0;
+    }
+    
+    .orphanage-details-content p {
+        margin-top: 0;
+    }
+
+    .orphanage-details-content hr {
+        margin: 2.4rem 0;
+    }   
+
+    .orphanage-details-content h2 {
+        font-size: 2.6rem;
+        line-height: 2.5rem;
+    }
+
+    .open-details div {
+        padding: 2rem 2rem;
+    }
+}

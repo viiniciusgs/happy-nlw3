@@ -44,3 +44,9 @@
     animation-duration: 300ms;
     animation-fill-mode: backwards;
 }
+
+@media (max-width: 768px) {
+    .animate-right {
+        animation-duration: 0ms;
+    }
+}
