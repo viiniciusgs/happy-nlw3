@@ -2,8 +2,6 @@
     <img alt="Happy" title="Happy" src=".github/logo.svg" />
 </h1>
 
-<br>
-
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
