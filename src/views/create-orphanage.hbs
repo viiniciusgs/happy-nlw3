@@ -33,13 +33,13 @@
         </aside>
 
         <main class="animate-appear with-sidebar">
-            <form action="save-orphanage" method="POST" {{!-- onsubmit="validate(event)" --}}>
+            <form action="save-orphanage" method="POST">
                 <fieldset>
                     <legend>Dados</legend>
 
                     <div class="map-container">
                         <div id="mapid"></div>
-                        <input type="hidden" name="lat">
+                        <input type="hidden" name="lat"> 
                         <input type="hidden" name="lng">
 
                         <footer>
@@ -68,7 +68,7 @@
                         <label for="images">Fotos</label>
                         <div class="images-upload" id="images">
                             <div class="new-upload">
-                                <input name="images" placeholder="Cole o link da foto aqui" required type="url">
+                                <input name="images" placeholder="Cole o link da foto aqui" type="url">
                                 <span onclick="deleteField(event)">
                                     <img src="/images/remove-file.svg" alt="Remover foto">
                                 </span>
