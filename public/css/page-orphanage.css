@@ -150,6 +150,7 @@ main {
 
     .orphanage-details-content h1 {
         font-size: 4.4rem;
+        margin-top: 2rem;
         margin-bottom: 0;
     }
     
@@ -163,10 +164,15 @@ main {
 
     .orphanage-details-content h2 {
         font-size: 2.6rem;
+        margin-top: 4rem;
         line-height: 2.5rem;
     }
 
+    .open-details {
+        margin-top: 4.4rem;
+    }    
+
     .open-details div {
-        padding: 2rem 2rem;
+        padding: 1rem;
     }
 }

@@ -109,3 +109,12 @@ fieldset legend {
     padding: .6rem;
     cursor: pointer;
 }
+
+@media (max-width: 768px) {
+    form {
+        width: 100vw;
+        margin: 6.4rem auto 0;
+        border-radius: 2rem 2rem 0 0;
+        padding: 2rem;
+    }
+}
